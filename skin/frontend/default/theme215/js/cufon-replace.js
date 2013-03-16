@@ -1,0 +1,3 @@
+Cufon.replace('.block .block-title strong span, .page-title, .short-description h2, .box-description h2, .box-additional h2', { fontFamily: 'BlackJack' });
+Cufon.replace('.cms-home .products-grid .product-name, .box-tags h2, .box-up-sell h2, .checkout-cart-index .page-title2 h1', { fontFamily: 'BlackJack' });
+Cufon.replace('.cms-home h2.subtitle, .cart .discount h2, .cart .shipping h2, .cms-home .col-main h1, .cms-home .block-brands h1', { fontFamily: 'BlackJack' });
