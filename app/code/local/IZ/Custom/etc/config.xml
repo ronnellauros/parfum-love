@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<IZ_Custom>
+			<version>0.1.2</version>
+		</IZ_Custom>
+	</modules>
+	<global>
+		<blocks>
+			<custom>
+				<class>IZ_Custom_Block</class>
+			</custom>
+		</blocks>
+		<resources>
+            <iz_custom_setup>
+                <setup>
+                    <module>IZ_Custom</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </iz_custom_setup>
+        </resources>
+	</global>
+	<frontend>
+        <routers>
+            <custom>
+                <use>standard</use>
+                <args>
+                    <module>IZ_Custom</module>
+                    <frontName>custom</frontName>
+                </args>
+            </custom>
+        </routers>
+		<layout>
+			<updates>
+				<iz_custom>
+					<file>iz_custom.xml</file>
+				</iz_custom>
+			</updates>
+		</layout>
+    </frontend>
+</config>
+

@@ -1727,3 +1727,40 @@ td.cart-buttons .btn-continue{ float:left;}
 .box-left { width:41px; height:95px; position:absolute; padding:0; margin:0; font-size:0; line-height:0; left:-68px; top:31px; z-index:12;}
 .box-right { width:41px; height:95px; position:absolute; padding:0; margin:0; font-size:0; line-height:0; right:-68px; top:31px; z-index:12;}	
 /**slider****/
+
+/*added by atheotsky*/
+@font-face { font-family: OpenSanlightItalic; src: url("./OpenSans-LightItalic.ttf") }
+@font-face { font-family: OpenSanSemiBold; src: url("./OpenSans-Semibold.ttf") }
+@font-face { font-family: OpenSan; src: url("./OpenSans-Regular.ttf") }
+@font-face { font-family: OpenSanBold; src: url("./OpenSans-Bold.ttf") }
+@font-face { font-family: OpenSanlight; src: url("./OpenSans-Light.ttf") }
+
+html { background: url(../images/body_background.jpg) repeat; }
+.wrapper {  min-height:680px ; height:auto !important; background:url(../images/bg_header_3.jpg) center 0 repeat-x;}
+.header-container { box-shadow: 0 0 6px #111111; }
+.cms-home .col-main { float: none; width: 100%; margin: 0 0 73px 0; }
+.form-search input, select, textarea, button.button span { color: #111111; }
+.header .links li a { color: #ffc841; text-transform: uppercase; font-family: OpenSanlight; }
+.header .links li a:hover { color: #ffd97c; }
+.header .currency-header { font-family: OpenSanlight; }
+.header .welcome-msg { font-family: OpenSanlight; padding: 0 40px 0 0; }
+.header .links li a { font-family: OpenSan; }
+.home-news { min-height: 250px; color: #CDCDCD; font-size: 13px; font-family: OpenSan; }
+.home-news .container { }
+.news-block { padding: 15px 0; width: 260px; float: left; }
+.news-block .date-time{ font-family: OpenSanSemiBold; }
+.news-block .title{ font-family: OpenSanBold; margin-bottom: 15px; }
+.news-block .more a { color: #ffc841; }
+.news-left { display: block; float: left; width: 530px; }
+.news-right { display: block; float: left; width: 410px; }
+.news-title { font-size: 28px; padding: 25px 0 20px; border-bottom: #555555 dotted 1px; width: 90%; font-family: OpenSanlightItalic;}
+.home-news .product-image img { border-radius: 10px; float: left; width: 30%; margin: 30px 10px; }
+.home-news .product-image img.first { margin: 30px 10px 0 0; }
+.home-news .product-image img.last { margin: 30px 0 0 10px; }
+
+.style1{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+.style2{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+.style3{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+.style4{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+.style5{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+.style6{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}

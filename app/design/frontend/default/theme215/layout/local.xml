@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Layout version="0.1.0">
+	<default>
+		<reference name="root">
+			<remove name="row_bottom"/>
+		</reference>
+		<reference name="header">
+            <!--<block type="directory/currency" name="iz_custom_currency_selector" template="currency/currency.phtml"/>-->
+			<remove name="store_language"/>
+        </reference>
+	</default>
+</Layout>

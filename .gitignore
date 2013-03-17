@@ -4,3 +4,4 @@ includes/
 app/etc/local.xml
 .DS_Store
 *.swp
+errors/local.xml
