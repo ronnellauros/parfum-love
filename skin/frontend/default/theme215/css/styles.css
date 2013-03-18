@@ -1758,9 +1758,10 @@ html { background: url(../images/body_background.jpg) repeat; }
 .home-news .product-image img.first { margin: 30px 10px 0 0; }
 .home-news .product-image img.last { margin: 30px 0 0 10px; }
 
-.style1{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
-.style2{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
-.style3{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
-.style4{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
-.style5{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
-.style6{ background:url(../images/parfumbg.jpg) top center no-repeat fixed;}
+body { background:url(../images/parfumbg.jpg) center top no-repeat fixed; }
+.style1{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
+.style2{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
+.style3{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
+.style4{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
+.style5{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
+.style6{ background:url(../images/parfumbg.jpg) top center no-repeat fixed; }
